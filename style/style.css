@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -30,8 +29,8 @@ nav {
     list-style: none;
 }
 .menu a.active {
-    color: #ff9900; /* Cambia el color del enlace activo */
-    font-weight: bold; /* Pone en negrita el enlace activo */
+    color: #ff9900;
+    font-weight: bold;
 }
 
 .menu li {
@@ -65,10 +64,10 @@ footer {
 }
 .carousel {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center; 
+    align-items: center; 
     max-width: 100%;
-    /* height: 400px; Ajusta la altura según tus preferencias */
+    /* height: 400px; 
     /* background-color: #fff; */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 
@@ -85,7 +84,7 @@ footer {
     height: auto;
 }
 
-/* Estilos de la cuadrícula de productos */
+/* Estilos  productos */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

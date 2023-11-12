@@ -25,11 +25,9 @@ Navega por las diferentes páginas del sitio web utilizando el menú de navegaci
 Explora los productos en la página de "Productos" y agrega los que desees al carrito de compras.
 Ve a la página de "Carrito" para revisar y finalizar tu compra.
 Contacta con nosotros en la página de "Contacto" si necesitas ayuda o tienes alguna pregunta.
-Contribución
-Si deseas contribuir al desarrollo de MercadoShoes eCommerce, ¡estamos abiertos a colaboraciones! Siéntete libre de enviar solicitudes pull con mejoras o solución de problemas.
 
 Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.md.
+Este proyecto está licenciado bajo la Licencia MIT.
 
 Contacto
 Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto con nosotros:

@@ -13,24 +13,6 @@ Página de contacto para consultas y soporte al cliente.
 Carrito de compras para gestionar tus productos.
 Página "Nosotros" para conocer más sobre nuestra tienda y equipo.
 Diseño moderno y elegante.
-Capturas de pantalla
-Inserta aquí capturas de pantalla de tu eCommerce para mostrar cómo se ve y cómo funcionan las diferentes secciones. Puedes utilizar herramientas como Lightshot o Snipping Tool para tomar capturas de pantalla.
-
-Instalación
-Clona este repositorio en tu computadora local.
-Abre el archivo index.html en tu navegador para visualizar el sitio web.
-Si deseas realizar modificaciones en el código o agregar más funcionalidades, asegúrate de tener un editor de código como Visual Studio Code.
-Uso
-Navega por las diferentes páginas del sitio web utilizando el menú de navegación en la parte superior.
-Explora los productos en la página de "Productos" y agrega los que desees al carrito de compras.
-Ve a la página de "Carrito" para revisar y finalizar tu compra.
-Contacta con nosotros en la página de "Contacto" si necesitas ayuda o tienes alguna pregunta.
-
-Licencia
-Este proyecto está licenciado bajo la Licencia MIT.
-
-Contacto
-Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto con nosotros:
 
 Correo electrónico: info@mercadoshoes.com
 Sitio web: www.mercadoshoes.com/contacto

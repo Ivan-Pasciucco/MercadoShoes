@@ -14,5 +14,5 @@ Carrito de compras para gestionar tus productos.
 Página "Nosotros" para conocer más sobre nuestra tienda y equipo.
 Diseño moderno y elegante.
 
-Correo electrónico: info@mercadoshoes.com
-Sitio web: www.mercadoshoes.com/contacto
+Correo electrónico:
+Sitio web: 

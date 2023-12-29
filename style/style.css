@@ -13,26 +13,36 @@ header {
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
-  min-height: 100vh; /* Establecer el cuerpo al 100% de la altura del viewport */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #f0f0f0;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+/* nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+} */
+.navbar-dark .navbar-nav .nav-link {
+  margin-right: 15px;
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link:last-child {
+  margin-right: 0;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+  color: yellow;
 }
 
 main {
   max-width: 1200px;
   margin: 20px auto;
-  flex: 1; /* Hacer que el contenido ocupe el espacio restante */
-  /* margin-bottom: 60px; */
+  flex: 1;
+  margin-bottom: 60px;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -87,13 +97,29 @@ button:hover {
 
 .carousel {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
   max-width: 100%;
+  position: relative;
+  align-items: center;
+}
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.carousel .carousel-control-prev {
+  left: 10px;
+}
+.carousel .carousel-control-next {
+  right: 10px;
 }
 .carousel img {
   width: 100%;
-  max-width: 600px;
   height: auto;
 }
 
@@ -136,6 +162,12 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .product-catalog .product {
@@ -319,7 +351,9 @@ textarea {
   .product-catalog .product p {
     margin-bottom: 10px;
   }
-  .product-catalog h3, .product-catalog p, .product-catalog .price {
+  .product-catalog h3,
+  .product-catalog p,
+  .product-catalog .price {
     margin: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

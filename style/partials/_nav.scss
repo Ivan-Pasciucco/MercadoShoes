@@ -1,8 +1,25 @@
-nav {
+/* nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 20px;
+} */
+.navbar-dark {
+	.navbar-nav {
+		.nav-link {
+			margin-right: 15px;
+			color: white;
+
+			&:last-child {
+				margin-right: 0;
+			  }
+
+			&.active,
+			&:hover {
+				color: yellow;
+			}
+		}
+	}
 }

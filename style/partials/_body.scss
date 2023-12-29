@@ -1,0 +1,8 @@
+body {
+	font-family: $font-family_1;
+	line-height: 1.6;
+	min-height: 100vh; /* Establecer el cuerpo al 100% de la altura del viewport */
+	display: flex;
+	flex-direction: column;
+	background-color: $background-color_1;
+}

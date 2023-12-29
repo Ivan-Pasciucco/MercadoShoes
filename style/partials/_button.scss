@@ -1,0 +1,15 @@
+button {
+	background-color: $background-color_4;
+	color: $color_1;
+	border: none;
+	padding: 8px 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	bottom: 5px; // Ajusta este valor según tu diseño
+	left: 50%;
+
+	&:hover {
+		background-color: $background-color_5;
+
+	}
+}
